@@ -1,1 +1,100 @@
 body{
+	font-family:cursive ;
+	margin: 0;
+	padding: 0;
+	background-color:#FFFFFF;
+	color: #333;
+}
+header{
+	background-color: #00209f;
+	color: white;
+	padding: 100px 0;
+	text-align: center;
+}
+footer{
+	background-color:#009543;
+	color: white;
+	padding: 100px 0;
+	text-align: center;
+}
+p{
+	text-decoration: none;
+}
+header nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+header nav ul li{
+	display: inline;
+	margin: 0 15px;
+}
+header nav ul li a{
+	color: white;
+	text-decoration: none;
+
+}
+header nav ul li a:hover{
+	background-color:#000000 ;
+}
+h1, h2{
+	text-align: center;
+	text-decoration: none;
+}
+section{
+	padding: 20px;
+
+}
+.hero-image img{
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+}
+.clothing-gallery{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+.clothing img{
+     width: 280px;
+     height: 200px;
+     transition: tranform 0.3s;
+     border-radius: 20px;
+}
+.clothing:hover img{
+	transform: scale(1.1);
+}
+form{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin: 0 auto;
+}
+form input, form textarea, form select{
+	margin: 15px;
+	padding: 15px;
+}
+form button{
+	padding: 10px;
+	background-color: #333;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+form button:hover{
+	background-color: #555;
+}
+.crafts-gallery{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+.crafts-item img{
+     width: 280px;
+     height: 200px;
+     transition: tranform 0.1s;
+     border-radius: 20px;
+}
+.crafts-item:hover img{
+	transform: scale(1.1);
+
+}
