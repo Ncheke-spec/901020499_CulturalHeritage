@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contacts</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="traditional_clothing.html">Traditional Clothing</a></li>
+				<li><a href="music-dance.html">Music and Dance</li>
+				<li><a href="arts-crafts.html">Arts & Crafts</li>	
+			</ul>
+		</nav>	 
+	</header>
+
+	<section id="contact">
+		<h2>Contact Us</h2>
+		<form action="submit_form.php" method="POST">
+
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="meassage">Message:</label>
+			<textarea id="meassage" name="meassage" required></textarea>
+
+			<label for="interest">Topic of Interest:</label>
+			<select id="interest" name="interest">
+			    <option value="clothing">Traditional Clothing</option>
+			    <option value="music">Music & Dance</option>
+			    <option value="crafts">Arts & Crafts</option>
+            </select>
+
+            <button type="submit">Submit</button>
+		</form>
+	</section>
+	<footer>
+		<p>&copy; 2025 Basotho Culture. All Rights Reserved.</p>
+	</footer>
+
+</body>
+</html>
